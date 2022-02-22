@@ -26,18 +26,23 @@ public class Sketch extends PApplet {
 	  //Creating the ground and the colour it will be 
     fill(0,154,23);
     rect(0,300,400,100);
+    
     //Creating the sun 
     fill(247,247,73);
     ellipse(65,65,90,90);
+    
     //Creating the house body and colour 
     fill(188,74,60);
     rect(175,175,150,150);
+    
     //Creating the roof and colour of roof
     fill(109,114,124);
     triangle(150,175,250,100,350,175);
+    
     //Creating door
     fill(186,140,99);
     rect(232,265,40,60);
+    
     //Creating windows
     fill(199,227,225);
     rect(190,200,30,30);
